@@ -1,4 +1,4 @@
-## The Golden Rule:
+## The Golden Rule
 
 🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
 
@@ -53,11 +53,15 @@ Kenni and Akilah Notes
 ### FUNCTIONS
 
 -   fetch-utils.js
+
     -   getAllBeanieBabies
     -   getAllSigns
     -   getAllBeanieBabiesBySign
+
 -   render-utils.js
+
     -
+
 -   display
     -   sign options
     -   beanies
