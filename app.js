@@ -1,5 +1,5 @@
 /* Imports */
-
+import { renderAstroSign, renderBeanie } from './render-utils.js';
 /* Get DOM Elements */
 
 /* State */
