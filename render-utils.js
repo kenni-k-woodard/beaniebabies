@@ -3,7 +3,7 @@ export function renderBeanie(beanie) {
     li.classList.add('card');
 
     const img = document.createElement('img');
-    img.src = beanie.img;
+    img.src = beanie.image;
     img.alt = beanie.title;
 
     const content = document.createElement('div');

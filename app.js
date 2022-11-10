@@ -18,11 +18,17 @@ window.addEventListener('load', async () => {
     displayAstroOptions();
 });
 
-// async function findBeanies(astroSign) {
-//     const response = await getAstroSigns();
-//     astroSigns = response.data;
-//     displayBeanies();
-//}
+async function findBeanies(astroSign) {
+    const response = await getBeanies(astroSign);
+    beanies = response.data;
+    displayBeanies();
+}
+
+searchForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const formData = new FormData(searchForm);
+    findBeanies(formData.get('astroSign'));
+});
 
 /* Display Functions */
 function displayBeanies() {
