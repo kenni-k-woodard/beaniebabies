@@ -1,4 +1,4 @@
-## The Golden Rule:
+## The Golden Rule
 
 🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
 
@@ -25,3 +25,49 @@ Additional considerations:
     -   What needs to live in a persistence layer?
 -   Is there some state we need to initialize?
 -   Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
+
+Kenni and Akilah Notes
+-make a plan
+-discuss some slices
+-what's our timeline?
+
+### PLAN
+
+-   start with html
+    -   link to supabass
+    -   create form (label, select, and button)
+
+### STATE
+
+-   beanie baby array
+-   astrological sign array
+
+### EVENTS
+
+-   page load
+    -   display all beanie babies
+    -   display all signs (in dropdown)
+-   form submit
+    -   use form to filter beanie babies by sign
+
+### FUNCTIONS
+
+-   fetch-utils.js
+
+    -   getAllBeanieBabies
+    -   getAllSigns
+    -   getAllBeanieBabiesBySign
+
+-   render-utils.js
+
+    -
+
+-   display
+    -   sign options
+    -   beanies
+
+### SLICES
+
+-   fetching beanies and displaying on load page
+-   fetching astrology signs from database and displaying in dropdown on load
+-   searching by astrology sign and rendering only matches
