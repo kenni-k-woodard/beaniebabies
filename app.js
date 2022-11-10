@@ -13,13 +13,16 @@ let astroSigns = [];
 /* Events */
 window.addEventListener('load', async () => {
     findBeanies();
-});
-
-async function findBeanies(astroSign) {
     const response = await getAstroSigns();
     astroSigns = response.data;
-    displayBeanies();
-}
+    displayAstroOptions();
+});
+
+// async function findBeanies(astroSign) {
+//     const response = await getAstroSigns();
+//     astroSigns = response.data;
+//     displayBeanies();
+//}
 
 /* Display Functions */
 function displayBeanies() {
